@@ -31,6 +31,10 @@ class KeyPointClassifier(object):
 
         result = self.interpreter.get_tensor(output_details_tensor_index)
 
-        result_index = np.argmax(np.squeeze(result))
+        probabilities = tf.nn.softmax(result).numpy()
+        result_index = np.argmax(probabilities)
+        max_probability = np.max(probabilities)
 
-        return result_index
+        #result_index = np.argmax(np.squeeze(result))
+
+        return result_index, max_probability

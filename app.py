@@ -109,8 +109,8 @@ def main():
         # Camera capture #####################################################
         ret, image = cap.read()
 
-        #HUE OFFSETS
-        hue_offset = 80
+        #HUE OFFSETS Take 80
+        hue_offset = 0
         img_hsv = cv2.cvtColor(image, cv.COLOR_BGR2HSV)
         h, s, v = cv2.split(img_hsv)
         # shift the hue
@@ -150,7 +150,8 @@ def main():
                             pre_processed_point_history_list)
 
                 # Hand sign classification
-                hand_sign_id = keypoint_classifier(pre_processed_landmark_list)
+                hand_sign_id, probability = keypoint_classifier(pre_processed_landmark_list)
+                print(probability)
 
                 # Drawing part
                 debug_image = draw_bounding_rect(use_brect, debug_image, brect)
@@ -160,6 +161,7 @@ def main():
                     brect,
                     handedness,
                     keypoint_classifier_labels[hand_sign_id],
+                    probability,
                 )
         else:
             point_history.append([0, 0])
@@ -488,13 +490,16 @@ def draw_bounding_rect(use_brect, image, brect):
     return image
 
 
-def draw_info_text(image, brect, handedness, hand_sign_text):
+def draw_info_text(image, brect, handedness, hand_sign_text, probability):
     cv.rectangle(image, (brect[0], brect[1]), (brect[2], brect[1] - 22),
                  (0, 0, 0), -1)
 
     info_text = handedness.classification[0].label[0:]
     if hand_sign_text != "":
-        info_text = info_text + ':' + hand_sign_text
+        if probability > 0.075:
+            info_text = info_text + ':' + hand_sign_text
+        else:
+            info_text = info_text + ": no sign detected"
     cv.putText(image, info_text, (brect[0] + 5, brect[1] - 4),
                cv.FONT_HERSHEY_SIMPLEX, 0.6, (255, 255, 255), 1, cv.LINE_AA)
 
