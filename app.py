@@ -21,7 +21,7 @@ from model import PointHistoryClassifier
 def get_args():
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("--device", type=int, default=0)            # for gopro choose 1
+app    parser.add_argument("--device", type=int, default=1)            # for gopro choose 1
     parser.add_argument("--width", help='cap width', type=int, default=960)
     parser.add_argument("--height", help='cap height', type=int, default=540)
 
@@ -110,7 +110,7 @@ def main():
         ret, image = cap.read()
 
         #HUE OFFSETS Take 80
-        hue_offset = 0
+        hue_offset = 80
         img_hsv = cv2.cvtColor(image, cv.COLOR_BGR2HSV)
         h, s, v = cv2.split(img_hsv)
         # shift the hue
