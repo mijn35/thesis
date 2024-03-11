@@ -1,0 +1,14 @@
+###Camera based approach
+
+--- The comparison ---
+    1) Accuracy: Measure the accuracy of gesture recognition for both camera-based and haptic glove-based approaches.
+
+    2) Robustness: Assess the robustness of both approaches to environmental factors such as lighting conditions, background clutter, and occlusion.
+
+    3) Latency: Measure the latency of gesture recognition for both approaches to determine which one provides faster response times. Lower latency is crucial, especially for real-time applications.
+
+    4) Ease of Use: Evaluate the ease of use and user experience for both camera-based and haptic glove-based approaches. Consider factors such as setup complexity, comfort, and intuitiveness of gesture interactions.
+
+    5) Range: Assess the range of gestures that can be recognized by each approach. Determine if one approach has limitations in detecting certain types of gestures or requires specific positioning or orientation.
+
+    6) Privacy and Security: Consider the privacy implications of both approaches. Evaluate the level of privacy and data security provided by each approach and assess any potential risks associated with capturing visual or haptic data.
