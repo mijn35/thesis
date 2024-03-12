@@ -3,6 +3,7 @@
 import csv
 import copy
 import argparse
+import ctypes
 import itertools
 import os
 from collections import Counter
@@ -46,6 +47,10 @@ def main():
     cap_device = args.device
     cap_width = args.width
     cap_height = args.height
+
+    user32 = ctypes.windll.user32
+    screen_width = user32.GetSystemMetrics(0)
+    screen_height = user32.GetSystemMetrics(1)
 
     use_static_image_mode = args.use_static_image_mode
     min_detection_confidence = args.min_detection_confidence
@@ -139,6 +144,8 @@ def main():
         debug_image = draw_info(debug_image, fps)
 
         # Screen reflection #############################################################
+        cv.namedWindow('Hand Gesture Recognition', cv.WINDOW_NORMAL)
+        cv.resizeWindow('Hand Gesture Recognition', screen_width, screen_height)
         cv.imshow('Hand Gesture Recognition', debug_image)
 
     cap.release()
