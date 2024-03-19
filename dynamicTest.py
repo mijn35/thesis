@@ -242,13 +242,13 @@ def pre_process_landmark(landmark_list):
 
 def logging_csv(sign, mode, landmark_list, counter, letter):
     # Open CSV file for logging
-    csv_path = 'hand_landmarks_test1.csv'
+    csv_path = 'hand_landmarks_end.csv'
     if mode == 1 and sign != -1:
         with open(csv_path, 'a', newline="") as csv_file:
             csv_writer = csv.writer(csv_file)
             csv_writer.writerow([sign, *landmark_list])
             counter += 1
-            if counter == 10:
+            if counter == 50:
                 sign = -1
                 letter += 1
                 if letter == 9:
