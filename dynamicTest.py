@@ -506,7 +506,7 @@ def draw_info(image, fps, mode, number, counter, sign):
                        cv.LINE_AA)
 
     # Display images from the "alfabet" directory in the bottom left corner
-    alfabet_dir = "C:\gesture_recognition_by_image\letters"
+    alfabet_dir = "letters"
     alphabet_images = [filename for filename in os.listdir(alfabet_dir) if filename.endswith(".png")]
     if current_alphabet_index < len(alphabet_images):
         img_filename = alphabet_images[current_alphabet_index]
