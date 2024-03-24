@@ -90,11 +90,6 @@ def main():
     #  ########################################################################
     mode = 0
 
-    """"# Open CSV file for logging
-    csv_path = 'hand_landmarks_test.csv'
-    with open(csv_path, 'a', newline="") as csv_file:
-        csv_writer = csv.writer(csv_file)"""
-
     start_time = time.time()
     frame_count = 0
 
@@ -242,7 +237,7 @@ def pre_process_landmark(landmark_list):
 
 def logging_csv(sign, mode, landmark_list, counter, letter):
     # Open CSV file for logging
-    csv_path = 'hand_landmarks_anke.csv'
+    csv_path = 'hand_landmarks_darkTest.csv'
     if mode == 1 and sign != -1:
         with open(csv_path, 'a', newline="") as csv_file:
             csv_writer = csv.writer(csv_file)
