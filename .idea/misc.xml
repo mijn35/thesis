@@ -3,5 +3,5 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <type id="django" />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" project-jdk-name="Python 3.9 (gesture_recognition_by_image)" project-jdk-type="Python SDK" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" project-jdk-name="Python 3.9 (thesis)" project-jdk-type="Python SDK" />
 </project>
