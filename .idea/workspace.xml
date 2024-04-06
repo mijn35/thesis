@@ -4,10 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbe92925-cdbc-4b0b-9ce5-c69681c8e2ae" name="Changes" comment="martijn zus data added to a file">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_20_03_2024_8_40__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_20_03_2024_8_40__Changes_.xml" afterDir="false" />
+    <list default="true" id="bbe92925-cdbc-4b0b-9ce5-c69681c8e2ae" name="Changes" comment="added datamoeke&amp;vake">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27-3-2024_18_05_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_27-3-2024_18_05__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/New_model.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/New_model.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dynamicTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hand_landmarks_badTest.csv" beforeDir="false" afterPath="$PROJECT_DIR$/camera_data_test/hand_landmarks_badTest.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hand_landmarks_bla.csv" beforeDir="false" afterPath="$PROJECT_DIR$/camera_data/hand_landmarks_martijn_family.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hand_landmarks_darkTest.csv" beforeDir="false" afterPath="$PROJECT_DIR$/camera_data_test/hand_landmarks_darkTest.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hand_landmarks_end.csv" beforeDir="false" afterPath="$PROJECT_DIR$/camera_data/hand_landmarks_joren_family.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hand_landmarks_goodTest.csv" beforeDir="false" afterPath="$PROJECT_DIR$/camera_data_test/hand_landmarks_goodTest.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hand_landmarks_moeke.csv" beforeDir="false" afterPath="$PROJECT_DIR$/camera_data/hand_landmarks_moeke.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hand_landmarks_vake.csv" beforeDir="false" afterPath="$PROJECT_DIR$/camera_data/hand_landmarks_vake.csv" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +108,9 @@
       <recent name="C:\thesis" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\thesis" />
+      <recent name="C:\thesis\camera_data_test" />
+      <recent name="C:\thesis\camara_data" />
       <recent name="C:\thesis\data_glove" />
     </key>
   </component>
@@ -215,6 +227,7 @@
       <workItem from="1711562629863" duration="5636000" />
       <workItem from="1712046976722" duration="6139000" />
       <workItem from="1712058637208" duration="1976000" />
+      <workItem from="1712393293197" duration="2651000" />
     </task>
     <task id="LOCAL-00001" summary="start of project">
       <created>1710157931825</created>
@@ -356,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1712060934148</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="added datamoeke&amp;vake">
+      <created>1712217234635</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1712217234635</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,7 +420,8 @@
     <MESSAGE value="testing with other SDK" />
     <MESSAGE value="martijns data" />
     <MESSAGE value="added data" />
-    <option name="LAST_COMMIT_MESSAGE" value="added data" />
+    <MESSAGE value="added datamoeke&amp;vake" />
+    <option name="LAST_COMMIT_MESSAGE" value="added datamoeke&amp;vake" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/thesis$dynamicTest.coverage" NAME="dynamicTest Coverage Results" MODIFIED="1712216726561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
