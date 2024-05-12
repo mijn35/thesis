@@ -21,7 +21,7 @@ current_alphabet_index = 0
 def get_args():
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("--device", type=int, default=1)  # for gopro choose 1
+    parser.add_argument("--device", type=int, default=0)  # for gopro choose 1
     parser.add_argument("--width", help='cap width', type=int, default=960)
     parser.add_argument("--height", help='cap height', type=int, default=540)
 
@@ -167,6 +167,7 @@ def select_mode(key, mode):
     if 97 <= key <= 122:  # a ~ z
         number = key - 97
         print(number)
+        time.sleep(5)
     if key == 8:  # backspace
         mode = 0
     if key == 13:  # enter
@@ -237,7 +238,7 @@ def pre_process_landmark(landmark_list):
 
 def logging_csv(sign, mode, landmark_list, counter, letter):
     # Open CSV file for logging
-    csv_path = 'camera_data_test/hand_landmarks_badTest.csv'
+    csv_path = 'camera_data_test/hand_landmarks_hand_behind_hand.csv'
     if mode == 1 and sign != -1:
         with open(csv_path, 'a', newline="") as csv_file:
             csv_writer = csv.writer(csv_file)

@@ -5,19 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbe92925-cdbc-4b0b-9ce5-c69681c8e2ae" name="Changes" comment="chadwick data added">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_20_03_2024_8_40__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_20_03_2024_8_40__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/New_model.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/New_model.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/camera_data/hand_landmarks_joren_dad.csv" beforeDir="false" afterPath="$PROJECT_DIR$/camera_data/hand_landmarks_joren_dad.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/camera_data/hand_landmarks_joren_h.csv" beforeDir="false" afterPath="$PROJECT_DIR$/camera_data/hand_landmarks_joren.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/camera_data/hand_landmarks_joren_mom.csv" beforeDir="false" afterPath="$PROJECT_DIR$/camera_data/hand_landmarks_joren_mom.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/camera_data/hand_landmarks_joren_sister.csv" beforeDir="false" afterPath="$PROJECT_DIR$/camera_data/hand_landmarks_joren_sister.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/camera_data/hand_landmarks_moeke.csv" beforeDir="false" afterPath="$PROJECT_DIR$/camera_data/hand_landmarks_moeke.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/camera_data/hand_landmarks_vake.csv" beforeDir="false" afterPath="$PROJECT_DIR$/camera_data/hand_landmarks_vake.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/camera_data_test/hand_landmarks_badTest.csv" beforeDir="false" afterPath="$PROJECT_DIR$/camera_data_test/hand_landmarks_badTest.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/camera_data_test/hand_landmarks_darkTest.csv" beforeDir="false" afterPath="$PROJECT_DIR$/camera_data_test/hand_landmarks_darkTest.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/camera_data_test/hand_landmarks_goodTest.csv" beforeDir="false" afterPath="$PROJECT_DIR$/camera_data_test/hand_landmarks_goodTest.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/detection.py" beforeDir="false" afterPath="$PROJECT_DIR$/detection.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dynamicTest.py" beforeDir="false" afterPath="$PROJECT_DIR$/dynamicTest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keypoint_classification.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/keypoint_classification.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/new_hand_classifier.keras" beforeDir="false" afterPath="$PROJECT_DIR$/new_hand_classifier.keras" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +87,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.ide.settings.file-colors&quot;,
@@ -117,7 +111,7 @@
       <recent name="C:\thesis\data_glove" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.dynamicTest">
+  <component name="RunManager" selected="Python.detection">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="thesis" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -192,9 +186,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.detection" />
         <item itemvalue="Python.dynamicTest" />
         <item itemvalue="Python.app" />
-        <item itemvalue="Python.detection" />
         <item itemvalue="Python.dynamicTest" />
         <item itemvalue="Python.app" />
       </list>
@@ -241,6 +235,8 @@
       <workItem from="1714909036140" duration="614000" />
       <workItem from="1714989250020" duration="4000" />
       <workItem from="1715013019019" duration="2642000" />
+      <workItem from="1715427627887" duration="7473000" />
+      <workItem from="1715501708880" duration="436000" />
     </task>
     <task id="LOCAL-00001" summary="start of project">
       <created>1710157931825</created>
@@ -454,6 +450,8 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/thesis$dynamicTest.coverage" NAME="dynamicTest Coverage Results" MODIFIED="1715013737185" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/thesisEnd$detection.coverage" NAME="detection Coverage Results" MODIFIED="1715502141758" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/thesisEnd$dynamicTest.coverage" NAME="dynamicTest Coverage Results" MODIFIED="1715430146824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/thesis$app.coverage" NAME="app Coverage Results" MODIFIED="1710232408252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/thesis$detection.coverage" NAME="detection Coverage Results" MODIFIED="1710329656502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
