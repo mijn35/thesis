@@ -8,7 +8,7 @@ class KeyPointClassifier(object):
     def __init__(
         self,
          #model_path='model/keypoint_classifier/keypoint_classifier.tflite',
-        model_path='new_hand_classifier.tflite',
+        model_path='camera_classifier.tflite',
         num_threads=1,
     ):
         self.interpreter = tf.lite.Interpreter(model_path=model_path,
