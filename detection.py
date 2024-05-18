@@ -22,7 +22,7 @@ from model import KeyPointClassifier
 def get_args():
     parser = argparse.ArgumentParser()
 
-    parser.add_argument("--device", type=int, default=1)            # for gopro choose 1
+    parser.add_argument("--device", type=int, default=0)            # for gopro choose 1
     parser.add_argument("--width", help='cap width', type=int, default=960)
     parser.add_argument("--height", help='cap height', type=int, default=540)
 
@@ -416,7 +416,7 @@ def draw_info_text(image, brect, handedness, hand_sign_text, probability):
 
     info_text = handedness.classification[0].label[0:]
     if hand_sign_text != "":
-        if probability > 0.098059:
+        if probability > 0.105:
             info_text = info_text + ':' + hand_sign_text
         else:
             info_text = info_text + ": no sign detected"
